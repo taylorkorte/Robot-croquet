@@ -1,4 +1,5 @@
 # Color Detection using OpenCV
+# Taylor Korte 5/13/2021
  
 #Possible ways to improve: continue to edit blue_lower and blue_upper, add noise?, 
 #limit number of bounding boxes and bounding box area, filter/blur, derivates of bounding boxes 
