@@ -1,3 +1,6 @@
+# Use to communicate between RPi and Arduino via serial
+# Taylor Korte 5/13/2021
+
 import serial
 import threading
 from time import time, sleep 
