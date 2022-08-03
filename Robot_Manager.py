@@ -1,3 +1,6 @@
+# This script manages the robot. The robot need to push the ball through each gate. 
+# Taylor Korte 5/13/2021
+
 #import enrique's code
 from internalGridClassV2 import *
 #import joe's code
@@ -37,6 +40,7 @@ class Gates:
 	def getGate(self):
 		return self.state
 
+#Each state represents a step the robot needs to complete before moving to the next step. 
 class States:
 
 	FINDING_GATE = 0
@@ -101,7 +105,7 @@ class States:
 			return "FINDING NEXT GATE"
 
 
-#Code needs to return something htat will let us change state
+#Code needs to return something that will let us change state
 
 class Manager:
 
